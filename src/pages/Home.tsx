@@ -488,12 +488,12 @@ export default function Home() {
 
         <motion.div variants={fadeUp} style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fit, minmax(400px, 1fr))',
-          gap: '40px'
+          gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 320px), 1fr))',
+          gap: '24px'
         }}>
           {/* Story 1 */}
           <div className="glass-panel" style={{ 
-            padding: '40px', 
+            padding: '24px', 
             borderRadius: '24px', 
             textAlign: 'left',
             display: 'flex',
@@ -523,7 +523,7 @@ export default function Home() {
 
           {/* Story 2 */}
           <div className="glass-panel" style={{ 
-            padding: '40px', 
+            padding: '24px', 
             borderRadius: '24px', 
             textAlign: 'left',
             display: 'flex',
