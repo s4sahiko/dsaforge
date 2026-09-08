@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route, NavLink, Link } from 'react-router-dom';
-import { Search, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import './App.css';
 
 // Pages
@@ -8,7 +8,6 @@ import Home from './pages/Home';
 import Programs from './pages/Programs';
 import MasterClass from './pages/MasterClass';
 import HowWeWork from './pages/HowWeWork';
-import Mentors from './pages/Mentors';
 import Contact from './pages/Contact';
 import Login from './pages/Login';
 import SignUp from './pages/SignUp';
